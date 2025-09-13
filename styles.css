@@ -11,10 +11,9 @@ body {
 
 .grid-container {
   display: grid;
-  gap: 0.5rem;
-  grid-template-columns: repeat(4, 1fr);
-  width: 100%;
-  max-width: 900px;
+  grid-template-rows: 124px 124px 124px 124px 124px;
+  grid-template-columns: 242.5px 242.5px 242.5px 242.5px;
+  gap: 10px;
   background-color: #166534;
   padding: 1rem;
   border-radius: 1rem;
@@ -35,8 +34,8 @@ body {
 
 /* Define grid areas for specific items based on the updated request */
 .item-1 {
-  grid-column-start: 1;
-  grid-column-end: span 4;
+  grid-column-start: span 4;
+  grid-column-end: auto;
 }
 
 .item-2 {
