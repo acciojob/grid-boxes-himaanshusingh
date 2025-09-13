@@ -32,7 +32,6 @@ body {
   padding: 1rem;
 }
 
-/* Define grid areas for specific items based on the updated request */
 .item-1 {
   grid-column-start: span 4;
   grid-column-end: auto;
@@ -54,7 +53,7 @@ body {
 }
 
 .item-5 {
-  grid-column: 2 / span 2;
+  grid-column: span 2 / 4;
   grid-row: 3;
 }
 
@@ -79,6 +78,6 @@ body {
 }
 
 .item-10 {
-  grid-column: 2 / span 3;
+  grid-column: span 3 / 5;
   grid-row: 5;
 }
