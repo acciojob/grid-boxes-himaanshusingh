@@ -53,7 +53,7 @@ body {
 }
 
 .item-5 {
-  grid-column: span 2 / 4;
+  grid-column: span 2 / auto;
   grid-row: 3;
 }
 
@@ -78,6 +78,6 @@ body {
 }
 
 .item-10 {
-  grid-column: span 3 / 5;
+  grid-column: span 3 / auto;
   grid-row: 5;
 }
