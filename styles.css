@@ -12,7 +12,7 @@ body {
 .grid-container {
   display: grid;
   gap: 0.5rem;
-  grid-template-columns: repeat(1fr, 1fr, 1fr, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   width: 100%;
   max-width: 900px;
   background-color: #166534;
@@ -35,7 +35,8 @@ body {
 
 /* Define grid areas for specific items based on the updated request */
 .item-1 {
-  grid-column: 1 / span 4;
+  grid-column-start: 1;
+  grid-column-end: span 4;
 }
 
 .item-2 {
